@@ -1,2 +1,258 @@
-429: Too Many Requests
-For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafios ME315 - Julia Folgueral</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background: linear-gradient(135deg, #b794f6 0%, #9f7aea 100%);
+        min-height: 100vh;
+        padding: 20px;
+    }
+
+    .container {
+        max-width: 900px;
+        margin: 0 auto;
+        background: rgba(255, 255, 255, 0.95);
+        backdrop-filter: blur(10px);
+        border-radius: 20px;
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+    }
+
+    .header {
+        background: linear-gradient(135deg, #805ad5, #6b46c1);
+        color: white;
+        padding: 40px;
+        text-align: center;
+    }
+
+    .header h1 {
+        font-size: 2.5rem;
+        margin-bottom: 15px;
+        font-weight: 700;
+    }
+
+    .header .subtitle {
+        font-size: 1.2rem;
+        opacity: 0.9;
+        margin-bottom: 10px;
+    }
+
+    .header .info {
+        font-size: 1rem;
+        opacity: 0.8;
+    }
+
+    .content {
+        padding: 40px;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 20px;
+    }
+
+    .card {
+        background: white;
+        border-radius: 15px;
+        padding: 25px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+        transition: all 0.3s ease;
+        border-left: 4px solid #805ad5;
+    }
+
+    .card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+    }
+
+    .card h3 {
+        color: #1f2937;
+        margin-bottom: 15px;
+        font-size: 1.3rem;
+    }
+
+    .links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .btn {
+        display: inline-flex;
+        align-items: center;
+        padding: 8px 16px;
+        background: linear-gradient(135deg, #805ad5, #6b46c1);
+        color: white;
+        text-decoration: none;
+        border-radius: 8px;
+        font-size: 0.9rem;
+        font-weight: 500;
+        transition: all 0.3s ease;
+    }
+
+    .btn:hover {
+        transform: scale(1.05);
+        box-shadow: 0 5px 15px rgba(128, 90, 213, 0.4);
+    }
+
+    .btn.secondary {
+        background: linear-gradient(135deg, #6b7280, #4b5563);
+    }
+
+    .btn.pdf {
+        background: linear-gradient(135deg, #ef4444, #dc2626);
+    }
+
+    .btn.python {
+        background: linear-gradient(135deg, #059669, #047857);
+    }
+
+    @media (max-width: 768px) {
+        .header h1 {
+            font-size: 2rem;
+        }
+        
+        .content {
+            padding: 20px;
+        }
+        
+        .grid {
+            grid-template-columns: 1fr;
+        }
+    }
+</style>
+
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Desafios ME315</h1>
+            <div class="subtitle">Manipulação de Banco de Dados</div>
+            <div class="info">Julia Folgueral - RA: 277178 | UNICAMP</div>
+        </div>
+
+    <div class="content">
+        <div class="grid">
+            <div class="card">
+                <h3>Desafio 01</h3>
+                <div class="links">
+                    <a href="https://juliafolgueral-glitch.github.io/ManipulacaoBancoDados/Desafio01.html" class="btn">HTML</a>
+                    <a href="https://juliafolgueral-glitch.github.io/ManipulacaoBancoDados/Desafio01.qmd" class="btn secondary">QMD</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <h3>Desafio 02</h3>
+                <div class="links">
+                    <a href="https://juliafolgueral-glitch.github.io/ManipulacaoBancoDados/Desafio 02.pdf" class="btn pdf">PDF</a>
+                    <a href="https://juliafolgueral-glitch.github.io/ManipulacaoBancoDados/Desafio02_ME315.py" class="btn python">PYTHON</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <h3>Desafio 03</h3>
+                <div class="links">
+                    <a href="https://juliafolgueral-glitch.github.io/ManipulacaoBancoDados/Desafio03.html" class="btn">HTML</a>
+                    <a href="https://juliafolgueral-glitch.github.io/ManipulacaoBancoDados/Desafio03.qmd" class="btn secondary">QMD</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <h3>Desafio 04</h3>
+                <div class="links">
+                    <a href="https://juliafolgueral-glitch.github.io/ManipulacaoBancoDados/Desafio04.html" class="btn">HTML</a>
+                    <a href="https://juliafolgueral-glitch.github.io/ManipulacaoBancoDados/mapa.html" class="btn" style="background: linear-gradient(135deg, #f59e0b, #d97706);">Mapa</a>
+                    <a href="https://juliafolgueral-glitch.github.io/ManipulacaoBancoDados/Desafio04.qmd" class="btn secondary">QMD</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <h3>Desafio 05</h3>
+                <div class="links">
+                    <a href="https://juliafolgueral-glitch.github.io/ManipulacaoBancoDados/desafio05.html" class="btn">HTML</a>
+                    <a href="https://juliafolgueral-glitch.github.io/ManipulacaoBancoDados/desafio05.qmd" class="btn secondary">QMD</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <h3>Desafio 06</h3>
+                <div class="links">
+                    <a href="https://juliafolgueral-glitch.github.io/ManipulacaoBancoDados/Desafio06.html" class="btn">HTML</a>
+                    <a href="https://juliafolgueral-glitch.github.io/ManipulacaoBancoDados/Desafio06.qmd" class="btn secondary">QMD</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <h3>Desafio 07</h3>
+                <div class="links">
+                    <a href="https://juliafolgueral-glitch.github.io/ManipulacaoBancoDados/Desafio07.html" class="btn">HTML</a>
+                    <a href="https://juliafolgueral-glitch.github.io/ManipulacaoBancoDados/Desafio07.qmd" class="btn secondary">QMD</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <h3>Desafio 08</h3>
+                <div class="links">
+                    <a href="https://juliafolgueral-glitch.github.io/ManipulacaoBancoDados/Desafio08.html" class="btn">HTML</a>
+                    <a href="https://juliafolgueral-glitch.github.io/ManipulacaoBancoDados/Desafio08.qmd" class="btn secondary">QMD</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <h3>Desafio 09</h3>
+                <div class="links">
+                    <a href="https://juliafolgueral-glitch.github.io/ManipulacaoBancoDados/Desafio09.html" class="btn">HTML</a>
+                    <a href="https://juliafolgueral-glitch.github.io/ManipulacaoBancoDados/Desafio09.qmd" class="btn secondary">QMD</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <h3>Desafio 10</h3>
+                <div class="links">
+                    <a href="https://juliafolgueral-glitch.github.io/ManipulacaoBancoDados/Desafio10.html" class="btn">HTML</a>
+                    <a href="https://juliafolgueral-glitch.github.io/ManipulacaoBancoDados/Desafio10.qmd" class="btn secondary">QMD</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <h3>Desafio 11</h3>
+                <div class="links">
+                    <a href="https://juliafolgueral-glitch.github.io/ManipulacaoBancoDados/Desafio11.html" class="btn">HTML</a>
+                    <a href="https://juliafolgueral-glitch.github.io/ManipulacaoBancoDados/Desafio11.qmd" class="btn secondary">QMD</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <h3>Desafio 12</h3>
+                <div class="links">
+                    <a href="https://juliafolgueral-glitch.github.io/ManipulacaoBancoDados/Desafio12.html" class="btn">HTML</a>
+                    <a href="https://juliafolgueral-glitch.github.io/ManipulacaoBancoDados/Desafio12.qmd" class="btn secondary">QMD</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <h3>Desafio 13</h3>
+                <div class="links">
+                    <a href="https://juliafolgueral-glitch.github.io/ManipulacaoBancoDados/Desafio13.html" class="btn">HTML</a>
+                    <a href="https://juliafolgueral-glitch.github.io/ManipulacaoBancoDados/Desafio13.qmd" class="btn secondary">QMD</a>
+                </div>
+            </div>
+            
+        </div> <!-- fecha .grid -->
+    </div> <!-- fecha .content -->
+</div> <!-- fecha .container -->
+
+</body>
+</html>
